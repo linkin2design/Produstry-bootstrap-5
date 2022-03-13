@@ -1,0 +1,351 @@
+/*==================
+ extra small device 
+ ===================*/
+ @media(max-width: 575.98px){
+    header .address{
+        margin-left: 25px;
+    }
+
+    header .welcome {
+        transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+    }
+
+    header .welcome p {
+        transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+    }
+
+    header .media-icon ul{
+        justify-content: center;
+    }
+
+	header .media-icon ul li{
+		margin-left: 20px;
+	}
+
+	header .media-icon ul li:first-child{
+		margin-left: 0 !important;
+	}
+/*===============
+ header css end 
+ ================ */
+
+ .navbar-nav{
+     text-align: center;
+     padding-top: 20px;
+ }
+
+ .navbar-nav .look{
+     display: none;
+ }
+
+ .navbar-expand-lg .navbar-nav .nav-link::before {
+	content: '';
+	width: calc(44% + 30px);
+	height: 80%;
+	position: absolute;
+	border-top: 2px solid var(--brand);
+	border-bottom: 2px solid var(--brand);
+	top: 3px;
+	left: 71px;
+	transition: all linear 0.4s;
+	transform: scale(0,1);
+	-webkit-transform: scale(0,1);
+	-moz-transform: scale(0,1);
+	-ms-transform: scale(0,1);
+	-o-transform: scale(0,1);
+	-webkit-transition: all linear 0.4s;
+	-moz-transition: all linear 0.4s;
+	-ms-transition: all linear 0.4s;
+	-o-transition: all linear 0.4s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link::after {
+	content: '';
+	width: calc(42% + 24px);
+	height: calc(69% + 10px);
+	position: absolute;
+	border-left: 2px solid var(--brand);
+	border-right: 2px solid var(--brand);
+	top: -1px;
+	left: 78px;
+	transition: all linear 0.4s;
+	transform: scale(0,1);
+	-webkit-transform: scale(0,1);
+	-moz-transform: scale(0,1);
+	-ms-transform: scale(0,1);
+	-o-transform: scale(0,1);
+}
+
+/*===============
+ navber css end 
+ ================*/
+ #banner .btn:last-child{
+     margin-top: 10px;
+ }
+
+
+ /* mobile  */
+
+ .logo {
+	position: absolute;
+	left: 0;
+    transform: translateX(0);
+    -webkit-transform: translateX(0);
+    -moz-transform: translateX(0);
+    -ms-transform: translateX(0);
+    -o-transform: translateX(0);
+}
+
+.logo_move{
+    left: 0 !important;
+    transform: translateX(0) !important;
+    -webkit-transform: translateX(0) !important;
+    -moz-transform: translateX(0) !important;
+    -ms-transform: translateX(0) !important;
+    -o-transform: translateX(0) !important;
+}
+ 
+ /*===============
+ banner css end 
+ ================*/ 
+ #service .sub-text h1 {
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+#service .sub-text p {
+	padding: 0 0;
+}
+
+#service .image {
+margin: 0 auto;
+}
+
+
+ /*===============
+ service css end 
+ ================*/
+ #about .about-image {
+	margin-left: -47px !important;
+} 
+
+#about .abt-dtl {
+	flex-direction: column;
+}
+
+#about h2{
+    margin-top: 10px;
+    margin-bottom: 14px !important;
+}
+
+#about .nav-link {
+	margin-bottom: 0;
+	padding-right: 40px;
+	padding-left: 0px;
+	padding-bottom: 5px;
+}
+#about .tab-content p{
+	padding-top: 10px !important ;
+
+}
+
+#about .read-more {
+	margin-top: 10px !important;
+}
+
+
+ /*===============
+ about css end 
+ ================*/
+ #portfolio .sub-text {
+	margin-top: 620px;
+	margin-bottom: 30px;
+}
+
+#portfolio .sub-text p {
+	padding: 0 0px;
+}
+
+
+#portfolio .pr-image {
+	transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	-o-transform: scale(0.9);
+}
+
+
+
+
+
+
+
+ /*===============
+ portfolio css end 
+ ================*/
+
+ #funfacet {
+	margin-bottom: 50px;
+}
+ /*===============
+ funfacet css end 
+ ================*/
+#blog .sub-text p{
+    padding: 0px 0px;
+}
+
+
+ /*===============
+ blog css end 
+ ================*/
+ #testmonial .sub-text p{
+    padding: 0px 5px;
+}
+
+#testmonial .image-slider {
+	margin-left: 49px;
+	margin-top: 20px;
+}
+
+#testmonial .image-slider::after {
+display: none;
+}
+
+ /*===============
+ testmonial css end 
+ ================*/
+ #footer .news-image .text {
+	margin-top: -10px;
+	padding-right: 32px;
+}
+
+
+ /*===============
+ testmonial css end 
+ ================*/
+
+
+
+
+
+
+
+
+ }
+ 
+ 
+ /*==================
+ extra small device 
+ ===================*/ 
+
+ /*==================
+  small device 
+ ===================*/
+@media(min-width: 576px) and (max-width:767px){
+    header .address{
+        margin-left: 25px;
+    }
+
+    header .welcome {
+        transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+    }
+
+    header .welcome p {
+        transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+    }
+
+    header .media-icon ul{
+        justify-content: center;
+    }
+
+	header .media-icon ul li{
+		margin-left: 20px;
+	}
+
+	header .media-icon ul li:first-child{
+		margin-left: 0 !important;
+	}
+
+
+
+ /*===============
+ header css end 
+ ================*/
+
+
+ 
+ .navbar-nav{
+	text-align: center;
+	padding-top: 20px;
+}
+
+.navbar-nav .look{
+	display: none;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link::before {
+   content: '';
+   width: calc(44% + 30px);
+   height: 80%;
+   position: absolute;
+   border-top: 2px solid var(--brand);
+   border-bottom: 2px solid var(--brand);
+   top: 3px;
+   left: 128px;
+   transition: all linear 0.4s;
+   transform: scale(0,1);
+   -webkit-transform: scale(0,1);
+   -moz-transform: scale(0,1);
+   -ms-transform: scale(0,1);
+   -o-transform: scale(0,1);
+   -webkit-transition: all linear 0.4s;
+   -moz-transition: all linear 0.4s;
+   -ms-transition: all linear 0.4s;
+   -o-transition: all linear 0.4s;
+}
+
+.navbar-expand-lg .navbar-nav .nav-link::after {
+   content: '';
+   width: calc(42% + 24px);
+   height: calc(69% + 10px);
+   position: absolute;
+   border-left: 2px solid var(--brand);
+   border-right: 2px solid var(--brand);
+   top: -1px;
+   left: 136px;
+   transition: all linear 0.4s;
+   transform: scale(0,1);
+   -webkit-transform: scale(0,1);
+   -moz-transform: scale(0,1);
+   -ms-transform: scale(0,1);
+   -o-transform: scale(0,1);
+}
+ /*===============
+ nav ber css end 
+ ================*/
+
+
+
+}
+
+
+ /*==================
+  small device 
+ ===================*/
