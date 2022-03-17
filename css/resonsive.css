@@ -230,7 +230,7 @@ display: none;
 
 
  /*===============
- testmonial css end 
+ footer css end 
  ================*/
 
 
@@ -250,7 +250,7 @@ display: none;
  /*==================
   small device 
  ===================*/
-@media(min-width: 576px) and (max-width:767px){
+@media(min-width: 576px) and (max-width:767.98px){
     header .address{
         margin-left: 25px;
     }
@@ -337,15 +337,403 @@ display: none;
    -ms-transform: scale(0,1);
    -o-transform: scale(0,1);
 }
+
  /*===============
  nav ber css end 
  ================*/
+ #banner .left-arrow {
+	top: 90%;
+	left: 0;
+	width: calc(5% + 30px);
+	height: 7%;
+}
+
+
+
+#banner .right-arrow {
+	top: 90%;
+	right: 70%;
+	width: calc(5% + 30px);
+	height: 7%;
+}
+
+ /*===============
+banner css end 
+ ================*/
+ #service .sub-text h1 {
+	padding-top: 40px;
+	padding-bottom: 10px;
+}
+
+ #service .sub-text p {
+	padding: 0 0;
+}
+
+#service .image {
+    margin: 0 auto;
+    }
+
+ /*===============
+service css end 
+ ================*/
+ 
+ 
+ 
+ #about .about-image {
+     margin-left: -47px !important;
+    } 
+    
+    #about .abt-dtl {
+        flex-direction: column;
+    }
+
+    #about h2{
+        margin-top: 10px;
+        margin-bottom: 14px !important;
+    }
+
+    
+#about .nav-link {
+	margin-bottom: 0;
+	padding-right: 40px;
+	padding-left: 0px;
+	padding-bottom: 5px;
+}
+#about .tab-content p{
+	padding-top: 10px !important ;
+
+}
+
+#about .read-more {
+	margin-top: 10px !important;
+}
+
+/*===============
+   about css end 
+================*/    
+#portfolio .sub-text {
+	margin-top: 480px;
+	margin-bottom: 30px;
+}
+
+#portfolio .sub-text p {
+	padding: 0 0px;
+}
+
+
+#portfolio .pr-image {
+	transform: scale(0.9);
+	-webkit-transform: scale(0.9);
+	-moz-transform: scale(0.9);
+	-ms-transform: scale(0.9);
+	-o-transform: scale(0.9);
+}
+
+#portfolio .pr-overlay h3 {
+	margin-top: 250px;
+}
+
+ /*===============
+ portfolio css end 
+ ================*/
+
+ 
+ #funfacet {
+	margin-bottom: 50px;
+}
+ /*===============
+ funfacet css end 
+ ================*/
+ #blog .sub-text p{
+    padding: 0px 0px;
+}
+
+#blog .slider-items{
+    transform: scale(.9);
+    -webkit-transform: scale(.9);
+    -moz-transform: scale(.9);
+    -ms-transform: scale(.9);
+    -o-transform: scale(.9);
+}
+
+
+
+ /*===============
+ blog css end 
+ ================*/
+ #testmonial .sub-text p{
+    padding: 0px 20px;
+}
+
+#testmonial .image-slider::after {
+    display: none;
+    }
+
+ /*===============
+ testmonial css end 
+ ================*/
+ #footer .news-image .text {
+	margin-top: -10px;
+	padding-right: 0px;
+}
+
+#footer .news-icon a{
+    padding: 0 !important;
+}
+#footer .news-icon{
+    padding-top: 0 !important;
+}
+
+ /*===============
+ footer css end 
+ ================*/
+
+}
+
+ /*==================
+  small device 
+ ===================*/
+@media(min-width: 768px) and (max-width: 991.98px){
+
+    header .address{
+        margin-left: 25px;
+    }
+
+    header .welcome {
+        transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+    }
+
+    header .welcome p {
+        transform: skewX(0deg);
+        -webkit-transform: skewX(0deg);
+        -moz-transform: skewX(0deg);
+        -ms-transform: skewX(0deg);
+        -o-transform: skewX(0deg);
+    }
+
+    header .media-icon ul{
+        justify-content: center;
+    }
+
+	header .media-icon ul li{
+		margin-left: 20px;
+	}
+
+	header .media-icon ul li:first-child{
+		margin-left: 0 !important;
+	}
+
+    #navbarSupportedContent .nav-link {
+        padding-left: 0px !important;
+        padding-right: 0px !important;
+    }
+
+    #navbarSupportedContent .nav-link:last-of-type{
+        margin-right: 10px !important;
+    }
+
+    
+ /*==================
+  header css end 
+ ===================*/    
+ #banner .left-arrow {
+	top: 80%;
+	left: 5%;
+	width: calc(5% + 30px);
+	height: 7%;
+}
+
+
+
+#banner .right-arrow {
+	top: 80%;
+	right: 65%;
+	width: calc(5% + 30px);
+	height: 7%;
+}
+
+#banner .left-arrow{
+    font-size: 40px;
+    padding-top: 5px;
+}
+
+
+#banner .right-arrow{
+    font-size: 40px;
+    padding-top: 5px;
+}
+
+ /*==================
+  banner css end 
+ ===================*/
+ #service .sub-text p {
+	padding: 0 91px;
+}
+
+
+#service .image {
+    margin: 0 auto;
+    }
+
+    #service .service-text p {
+        padding: 0px;
+        padding-top: 30px;
+        padding-bottom: 63px;
+    }
+
+
+
+ /*==================
+  service css end 
+ ===================*/
+ #about .abt-dtl .about-image{
+     margin-left: 1rem !important;
+ }
+
+ /*==================
+  about css end 
+ ===================*/
+ #portfolio .sub-text {
+	margin-top: 210px;
+}
+
+#portfolio .sub-text p {
+	padding: 0 91px;
+}
+
+#portfolio .pr-image {
+    margin-bottom: 10px !important;
+}
+
+#portfolio .pr-image .pr-overlay {
+    bottom: -15px !important;
+}
+
+#portfolio .pr-image:hover .pr-overlay {
+	opacity: 1;
+	width: 100%;
+	transform: scale(0.92);
+	-webkit-transform: scale(0.92);
+	-moz-transform: scale(0.92);
+	-ms-transform: scale(0.92);
+	-o-transform: scale(0.92);
+}
+
+
+ /*==================
+  about css end 
+ ===================*/
+
+ #blog .sub-text p{
+    padding: 0px 91px;
+}
+
+ /*==================
+  blog css end 
+ ===================*/
+ #testmonial .sub-text p{
+    padding: 0px 127px;
+}
+
+ /*==================
+  testmonial css end 
+ ===================*/
+
+ /*==================
+  footer css end 
+ ===================*/
+}
+
+
+
+ /*==================
+  medium device 
+ ===================*/
+@media(min-width:992px) and (max-width: 1200.9px){
+
+    header .address p {
+       text-align: left !important;
+       font-size: 12px !important;
+    }
+    
+
+
+ /*==================
+    header css end
+ ===================*/
+ #banner .left-arrow {
+	top: 80%;
+	left: 0;
+}
+
+
+#banner .right-arrow {
+	top: 80%;
+	right: 81%;
+ }
+
+ /*==================
+    banner css end
+ ===================*/
+#service .sub-text p {
+	padding: 0 211px;
+ }
+
+#service .image {
+    margin: 0 auto;
+    }
+
+
+ /*==================
+    banner css end
+ ===================*/
+ #portfolio .sub-text p {
+	padding: 0 211px;
+} 
+#portfolio .sub-text h1 {
+
+    padding-top: 50px !important;
+}
+
+ /*==================
+    portfolio css end
+ ===================*/
+ #blog .sub-text p {
+	padding: 0 211px;
+}
+
+
+ /*==================
+    blog css end
+ ===================*/
+ #testmonial .sub-text p {
+	padding: 0 239px;
+}
+
+ /*==================
+    testimonial css end
+ ===================*/
+
+ #about .abt-tab{
+     margin-left: -10px;
+ }
+ /*==================
+    testimonial css end
+ ===================*/
+
+
+
+
+
 
 
 
 }
 
-
  /*==================
-  small device 
+  large device 
  ===================*/

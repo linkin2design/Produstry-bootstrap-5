@@ -13,7 +13,25 @@ $(document).ready(function () {
                 settings: {
                     dots: false,
                     arrows: false,
-                }
+                },
+            }, {
+                breakpoint: 768,
+                settings: {
+                    dots: false,
+                    arrows: false,
+                },
+            }, {
+                breakpoint: 992,
+                settings: {
+                    dots: false,
+                    arrows: false,
+                },
+            }, {
+                breakpoint: 1400,
+                settings: {
+                    dots: false,
+                    arrows: false,
+                },
             },
 
             // You can unslick at a given breakpoint now by adding:
@@ -35,18 +53,39 @@ $(document).ready(function () {
         slidesToShow: 3,
         responsive: [
             {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: false,
+                    arrows: false,
+                }
+            },
+            {
                 breakpoint: 992,
                 settings: {
                     slidesToShow: 3,
                     slidesToScroll: 3,
                     infinite: true,
                     dots: false,
+                    arrows: false,
                 }
             },
             {
                 breakpoint: 576,
                 settings: {
                     slidesToShow: 1,
+                    slidesToScroll: 2,
+                    dots: false,
+                    arrows: false,
+                }
+            },
+
+            {
+                breakpoint: 768,
+                settings: {
+                    slidesToShow: 2,
                     slidesToScroll: 2,
                     dots: false,
                     arrows: false,
@@ -123,27 +162,39 @@ $(document).ready(function () {
         centerPadding: '20px',
         arrows: true,
         slidesToShow: 5,
-        responsive: [{
-            breakpoint: 992,
-            settings: {
-                slidesToShow: 3,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: false,
-                arrows: false,
-            }
-        },
+        responsive: [
+            {
+                breakpoint: 1400,
+                settings: {
+                    slidesToShow: 5,
+                    slidesToScroll: 3,
+                    infinite: true,
+                    dots: false,
+                    arrows: false,
+                }
+            },
 
-        {
-            breakpoint: 576,
-            settings: {
-                slidesToShow: 1,
-                slidesToScroll: 1,
-                infinite: true,
-                dots: false,
-                arrows: false,
-            }
-        },
+            {
+                breakpoint: 992,
+                settings: {
+                    slidesToShow: 3,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false,
+                    arrows: false,
+                }
+            },
+
+            {
+                breakpoint: 576,
+                settings: {
+                    slidesToShow: 1,
+                    slidesToScroll: 1,
+                    infinite: true,
+                    dots: false,
+                    arrows: false,
+                }
+            },
 
 
 
@@ -183,7 +234,7 @@ $(document).ready(function () {
     ScrollReveal().reveal('.ft2', { delay: 200, origin: 'bottom' });
     ScrollReveal().reveal('.ft3', { delay: 200, origin: 'bottom' });
     ScrollReveal().reveal('.ft4', { delay: 200, origin: 'bottom' });
-    ScrollReveal().reveal('.cpy', { delay: 200, origin: 'bottom' });
+    ScrollReveal().reveal('.cpy', { delay: 200, origin: 'top' });
 
     // veno box 
     new VenoBox({
