@@ -2,7 +2,7 @@ $(document).ready(function () {
     // banner slider =========
     'use strict';
     $('.banner-slider').slick({
-        autoplay: true,
+        autoplay: false,
         speed: 800,
         lazyLoad: 'progressive',
         prevArrow: '<i class="fas fa-chevron-left left-arrow"></i>',

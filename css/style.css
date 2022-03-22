@@ -229,7 +229,6 @@ header .media-icon a:hover{
 ==============  */
 .navbar{
     background: #ffffff !important;
-    
 }
 
 .navbar-expand-lg .navbar-nav .nav-link{
@@ -1273,7 +1272,7 @@ header .media-icon a:hover{
 	z-index: 9999;
 	cursor: pointer;
 	width: calc(2% + 30px);
-	height: 26%;
+	height: 40%;
 	border-top: 1px solid var(--th-dark);
 	border-bottom: 1px solid var(--th-dark);
 	text-align: center;
@@ -1282,6 +1281,7 @@ header .media-icon a:hover{
 	-moz-transition: all linear 0.4s;
 	-ms-transition: all linear 0.4s;
 	-o-transition: all linear 0.4s;
+	padding-top: 7px;
 }
 
 #brand .left-arrow::after {
@@ -1315,7 +1315,7 @@ header .media-icon a:hover{
 	z-index: 9999;
 	cursor: pointer;
 	width: calc(2% + 30px);
-	height: 26%;
+	height: 40%;
 	border-top: 1px solid var(--th-dark);
 	border-bottom: 1px solid var(--th-dark);
 	text-align: center;
@@ -1324,6 +1324,7 @@ header .media-icon a:hover{
 	-moz-transition: all linear 0.4s;
 	-ms-transition: all linear 0.4s;
 	-o-transition: all linear 0.4s;
+    padding-top: 7px;
 }
 
 #brand .right-arrow::after {
@@ -1531,5 +1532,31 @@ footer{
 }
 
  /*===================
-    back to tap button css end
+back to tap button css end
+ ==================*/
+
+ /* ===== Scrollbar CSS ===== */
+  /* Firefox */
+  * {
+    scrollbar-width: auto;
+    scrollbar-color: var(--brand) #353535;
+    
+  }
+
+  /* Chrome, Edge, and Safari */
+  *::-webkit-scrollbar {
+    width: 16px;
+  }
+
+  *::-webkit-scrollbar-track {
+    background: #353535;
+  }
+
+  *::-webkit-scrollbar-thumb {
+    background-image: radial-gradient(circle, #ffca36, #f68a5c, #bc6473, #6e4f66, #353535);
+    border-radius: 10px;
+  }
+
+ /*===================
+scroll bar css end
  ==================*/
